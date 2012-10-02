@@ -11,7 +11,7 @@ namespace InsertionSort
 
             ViewValue(GetInsertionSortByOrderOfGrowth(massive));
 
-            ViewValue(GetInsertionSortByOrderOforderDecrease(massive));
+            ViewValue(GetInsertionSortByOrderOfDecrease(massive));
 
             Console.ReadLine();
         }
@@ -42,7 +42,7 @@ namespace InsertionSort
             }
             return massive;
         }
-        private static IEnumerable<int> GetInsertionSortByOrderOforderDecrease(IList<int> massive)
+        private static IEnumerable<int> GetInsertionSortByOrderOfDecrease(IList<int> massive)
         {
             for (var j = 1; j < massive.Count; j++)
             {
