@@ -22,7 +22,6 @@ public class Tools {
             } else {
                 numbers[i] = lId == lLen ? right[rId++] : left[lId++];
             }
-
         }
     }
 }
