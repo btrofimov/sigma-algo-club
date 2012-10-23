@@ -1,20 +1,10 @@
 package algorithms;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 import org.junit.Assert;
 
 public class ToolsTest extends TestCase {
-    public ToolsTest(String testName) {
-        super(testName);
-    }
-
-    public static Test suite() {
-        return new TestSuite(ToolsTest.class);
-    }
-
     public void testMerge() {
         int[] actuals = new int[] { 1, 2, 3, 4, 5, 6 };
         int[] expecteds = new int[] { 1, 2, 3, 4, 5, 6 };
